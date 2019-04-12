@@ -30,7 +30,7 @@ setInterval(function ()
             changeColor(red, green, blue);
         }
 
-}, 100)
+}, 80)
 function changeColor(r, g, b) {
     dc[0].style.color = "rgb(" + r + "," + g + "," + b + ")";
 }
