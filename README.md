@@ -1,2 +1,3 @@
 # overall.css
-This repository about to accumulate all css properties and made easy to use
+creating & collecting- help us to do so.
+We are just collecting various libraries to make easy to use.
