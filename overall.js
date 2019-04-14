@@ -36,6 +36,8 @@ setInterval(function ()
 }, 80)
 function changeColor(r, g, b) {
     dc[0].style.color = "rgb(" + r + "," + g + "," + b + ")";
+    
+
 }
 
 
@@ -52,31 +54,31 @@ g1 = 0;
 setInterval(function () {
     if (r1 == 255 && g1 > 0 && b1 == 0) {
         g1 = g1 - 5;
-        changeColor(r1, g1, b1);
+        changeColor1(r1, g1, b1);
     }
     else if (r1 < 255 && g1 == 255 && b1 == 0) {
         r1 = r1 + 5;
-        changeColor(r1, g1, b1);
+        changeColor1(r1, g1, b1);
     }
     else if (r1 == 0 && g1 == 255 && b1 > 0) {
         b1 = b1 - 5;
-        changeColor(r1, g1, b1);
+        changeColor1(r1, g1, b1);
     }
     else if (r1 == 0 && g1 < 255 && b1 == 255) {
         g1 = g1 + 5;
-        changeColor(r1, g1, b1);
+        changeColor1(r1, g1, b1);
     }
     else if (r1 > 0 && g1 == 0 && b1 == 255) {
         r1 = r1 - 5;
-        changeColor(r1, g1, b1);
+        changeColor1(r1, g1, b1);
     }
     else if (r1 == 255 && g1 == 0 && b1 < 255) {
         b1 = b1 + 5;
-        changeColor(r1, g1, b1);
+        changeColor1(r1, g1, b1);
     }
 
 }, 60)
-function changeColor(r1, g1, b1) {
+function changeColor1(r1, g1, b1) {
     var r1g1b1 = "rgb(" + r1 + "," + g1 + "," + b1 + ")";
 }
 
