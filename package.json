@@ -1,0 +1,19 @@
+{
+  "name": "overall.css",
+  "version": "1.0.0",
+  "description": "creating & collecting- help us to do so.\r We are just collecting various libraries to make easy to use.",
+  "main": "overall.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohel1001/overall.css.git"
+  },
+  "author": "sohel rauf sayyad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohel1001/overall.css/issues"
+  },
+  "homepage": "https://github.com/sohel1001/overall.css#readme"
+}
